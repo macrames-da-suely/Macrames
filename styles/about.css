@@ -6,22 +6,33 @@
 
 .about-header{
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 
     height: 40px;
 
+    padding-right: 5px;
+
     background-color: #000;
+    color: #fff;
+}
 
+.header-title{
+    display: flex;
+    align-items: center;
+}
 
+.header-icon{
+    width: 35px;
+    height: 40px;
 }
 
 .nav-link{
     text-decoration: none;
-    color: #fff;
+    color: #EB7334;
     transition: 0.3s all ease-in-out;
 }
 
 .nav-link:hover{
-    color: #EB7334;
+    color: #fff;
 }
