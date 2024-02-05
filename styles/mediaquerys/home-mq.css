@@ -1,0 +1,31 @@
+@media screen and (min-width: 300px) and (max-width: 992px){
+    .background-logo{
+        width: 120%;
+    }
+
+    main > p{
+        visibility: hidden;
+    }
+
+    .footer-wrapper{
+        justify-content: center;
+    }
+    
+    .footer-credits{
+        justify-content: right;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1920px){
+    main > p{
+        font-size: 1.2em;
+    }
+
+    .footer-wrapper{
+        font-size: 1.3em;
+    }
+
+    .footer-credits{
+        font-size: 0.7em;
+    }
+}
