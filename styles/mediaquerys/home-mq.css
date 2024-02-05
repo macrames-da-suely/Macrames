@@ -1,6 +1,6 @@
-@media screen and (min-width: 300px) and (max-width: 992px){
+@media screen and (min-width: 200px) and (max-width: 992px){
     .background-logo{
-        width: 120%;
+        width: 100%;
     }
 
     main > p{

@@ -17,6 +17,7 @@ main{
     justify-content: center;
     flex-direction: column;
     height: 90vh;
+    overflow: hidden;
     
     font-size: 1em;
     font-weight: 500;
@@ -29,6 +30,7 @@ main > p {
 }
 
 .background-logo{
+    display: flex;
     width: 100%;
 }
 
