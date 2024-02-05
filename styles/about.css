@@ -3,3 +3,25 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+
+.about-header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 40px;
+
+    background-color: #000;
+
+
+}
+
+.nav-link{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+}
+
+.nav-link:hover{
+    color: #EB7334;
+}

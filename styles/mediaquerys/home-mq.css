@@ -58,3 +58,18 @@
         font-size: 1.25em;
     }
 }
+
+@media screen and (min-width: 1400px) and (max-width: 1920px){
+    .main-wrapper > .main-background > .background-paragraph{
+        font-size: 1.2em;
+        padding-right: 50px;
+    }
+
+    .main-footer > .footer-links > .link{
+        font-size: 1.5em;
+    }
+
+    .main-footer > .footer-credits {
+        font-size: 0.65em;
+    }
+}

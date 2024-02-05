@@ -4,9 +4,6 @@
     font-family: 'Poppins', sans-serif;
 }
 
-main{
-    overflow: hidden;
-}
 
 .main-background{
     display: flex;
@@ -14,8 +11,8 @@ main{
     justify-content: center;
     align-items: center;
 
-    width: 100%;
-    height: 550px;
+    width: 100vw;
+    height: 90vh;
 
     background-image: url("../images/19331972_6075832.svg");
     background-size: cover;
@@ -27,16 +24,20 @@ main{
 }
 
 .background-paragraph{
+    font-weight: 500;
     font-size: 0.9em;
+    padding-right: 30px;
 }
 
 .main-footer{
     display: flex;
     flex-direction: column;
 
+    height: 10vh;
+
+
     padding-left: 5px;
     padding-right: 5px;
-    height: 77px;
 
     background-color: #000;
     color: #fff;
@@ -49,6 +50,8 @@ main{
 
     height: 65px;
 
+    font-family: 'Poppins', sans-serif;
+
     gap: 20px;
 }
 
@@ -56,6 +59,7 @@ main{
     text-decoration: none;
     color: #EB7334;
     font-size: 1.2em;
+    font-weight: 500;
 
     transition: 0.3s all ease-in-out;
 }
@@ -66,10 +70,16 @@ main{
 }
 
 .footer-credits{
-    font-size: 0.6em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.5em;
+
+    overflow: hidden;
+
+    padding-bottom: 2px;
 }
 
 .credit-link{
     text-decoration: none;
     color: #929292;
 }
+
