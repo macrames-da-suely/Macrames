@@ -4,11 +4,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
-}
-
-a:hover{
-    transform: scale(1.5);
+main > header > a:hover{
+    transform: scale(2);
+    transform: rotate(2);
 }
