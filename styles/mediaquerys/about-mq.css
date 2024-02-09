@@ -1,0 +1,107 @@
+@media screen and (min-width: 100px) and (max-width: 299px){
+
+    .image-container{
+        display: none;
+    }
+
+    .about-header{
+        overflow: hidden;
+    }
+
+    .nav-link{
+        font-size: 0.65em;
+    }
+
+    .title{
+        font-size: 0.7em;
+        margin-right: 10px;
+    }
+
+    .subtitle{
+        font-size: 0.7em;
+    }
+
+    .paragraph{
+        font-size: 0.6em;
+    }
+
+    .about-title{
+        font-size: 1.5em;
+    }
+    
+    .wrapper-main_paragraph > .paragraph.-bgblack{
+        font-size: 1em;
+    }
+    
+}
+
+@media screen and (min-width: 300px) and (max-width: 992px){
+
+    .title{
+        margin-right: 10px;
+    }
+
+    .about-header{
+        overflow: hidden;
+    }
+
+    .image-container{
+        display: none;
+    }
+
+    .paragraph-container > .subtitle{
+        font-size: 0.8em;
+    }
+
+    .paragraph-container > .paragraph{
+        font-size: 0.6em;
+    }
+
+    .about-footer{
+        height: 5%;
+    }
+
+    .about-main_paragraph{
+        height: 82.5vh;
+    }
+
+    .about-title{
+        font-size: 2.5em;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .wrapper-main_paragraph > .paragraph.-bgblack {
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1920px){
+    .paragraph-container > .subtitle{
+        font-size: 1.3em;
+    }
+
+    .paragraph-container > .paragraph{
+        font-size: 1em;
+    }
+
+    .title{
+        font-size: 1.5em;
+    }
+
+    .about-title{
+        font-size: 3em;
+    }
+
+    .wrapper-main_paragraph > .paragraph.-bgblack{
+        font-size: 1.6em;
+    }
+
+    .about-index{
+        height: 82vh;
+    }
+
+    .about-footer > p{
+        font-size: 0.9em;
+    }
+}

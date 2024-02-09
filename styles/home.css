@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
 
+
     width: 100vw;
     height: 90vh;
 
@@ -40,7 +41,7 @@
     padding-right: 5px;
 
     background-color: #000;
-    color: #fff;
+    color: #FFF;
 }
 
 .footer-links{
@@ -65,8 +66,8 @@
 }
 
 .footer-links > .link:hover{
-    color: #fff;
-    transform: scale(1.04);
+    color: #FFF;
+    transform: scale(1.05);
 }
 
 .footer-credits{
